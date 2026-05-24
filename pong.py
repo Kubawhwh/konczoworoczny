@@ -69,7 +69,7 @@ def draw(stdscr, left_y, right_y, ball_x, ball_y, score_l, score_r):
     stdscr.refresh()
 
 
-def game(stdscr):
+def game(stdscr): 
     curses.curs_set(0)
     stdscr.nodelay(True)
     stdscr.keypad(True)
